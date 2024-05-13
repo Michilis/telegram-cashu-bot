@@ -11,8 +11,14 @@ This repository contains the code for a Telegram bot that listens for messages c
 ## Setup Instructions
 
 1. Clone the repository.
-2. Install dependencies:
-   ```bash
+2. Install dependencies using the dependencies.txt:
+   npm install $(cat dependencies.txt)
+Or using yarn:
+
+bash
+Code kopiëren
+yarn add $(cat dependencies.txt)
+
    npm install
 Copy .env.example to .env and update with your Telegram bot token.
 
