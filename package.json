@@ -1,0 +1,16 @@
+{
+  "name": "telegram-cashu-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that generates and sends QR codes for Cashu tokens.",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "author": "Michilis",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "qrcode": "^1.4.4"
+  }
+}
