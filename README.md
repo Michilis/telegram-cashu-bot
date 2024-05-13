@@ -1,5 +1,3 @@
-# telegram-cashu-bot
-
 # Telegram Cashu Bot
 
 This repository contains the code for a Telegram bot that listens for messages containing Cashu tokens and responds with a QR code representing those tokens.
@@ -17,17 +15,19 @@ This repository contains the code for a Telegram bot that listens for messages c
    ```bash
    npm install
 Copy .env.example to .env and update with your Telegram bot token.
+
 Run the bot:
 bash
-Code kopiëren
+
 npm start
+
 Usage
 Add the bot to a Telegram group or send it a direct message with a Cashu token. It will respond with a QR code for the token.
 
-Contributing
+## Contributing
 Contributions are welcome! Please feel free to submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 sql
