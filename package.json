@@ -2,9 +2,9 @@
   "name": "telegram-cashu-bot",
   "version": "1.0.0",
   "description": "A Telegram bot that listens for Cashu token mentions and responds by generating and sending QR codes.",
-  "main": "bot.js",
+  "main": "src/bot.js",
   "scripts": {
-  "start": "node src/bot.js"
+    "start": "node src/bot.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/michilis/telegram-cashu-bot#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "node-telegram-bot-api": "^0.52.0",
+    "node-telegram-bot-api": "^0.60.0", // Updated to the latest version as of the last example
     "qrcode": "^1.5.0"
   }
 }
